@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+}
+.screen {
+    text-align: right;
+    padding: 20px;
+    border: 1px solid blue;
+}
+.calc-button-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.calc-button {
+    font-size: 50px;
+    height: 70px;
+    flex-basis: 24%;
+    border: 1px solid black;
+}
+.double {
+    flex-grow: 2;
+}
+
+.triple {
+    flex-grow: 3;
+}
