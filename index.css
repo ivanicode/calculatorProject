@@ -31,6 +31,7 @@ body {
     border-radius: 10px;
     color: white;
     background-color: #00334d;
+    cursor: pointer;
 }
 .double {
     width: 850px;
